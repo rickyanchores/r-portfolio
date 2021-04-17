@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     width: 90%;
     margin: auto;
     .img_box{
@@ -15,5 +14,14 @@
     h5{
         color: teal;
         font-size: 1em;
+    }
+}
+
+@media (max-width: 700px){
+    #showcase{
+        display: block;
+        .img_box{
+            width: 100%;
+        }
     }
 }
