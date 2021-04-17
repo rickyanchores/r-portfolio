@@ -1,0 +1,19 @@
+#showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    .img_box{
+        padding: 3em;
+        width: 50%;
+    }
+    h3{
+        font-size: 2em;
+    }
+    h5{
+        color: teal;
+        font-size: 1em;
+    }
+}
