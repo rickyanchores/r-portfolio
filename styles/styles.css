@@ -85,6 +85,11 @@ nav {
   width: 400px;
 }
 
+#showcase .img_box img {
+  -webkit-box-shadow: -20px 20px 0px 5px #333;
+          box-shadow: -20px 20px 0px 5px #333;
+}
+
 #showcase h3 {
   font-size: 2em;
 }

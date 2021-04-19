@@ -7,6 +7,9 @@
     .img_box{
         padding: 3em;
         width: 400px;
+        img{
+            box-shadow: -20px 20px 0px 5px #333;
+        }
     }
     h3{
         font-size: 2em;
