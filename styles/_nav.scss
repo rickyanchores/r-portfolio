@@ -16,6 +16,11 @@ nav{
       color: black;
       padding: 1em;
     }
+    li a:hover{
+      background: black;
+      color: whitesmoke;
+      transition: .5s ease-in;
+    }
   }
   #hamburger{
     

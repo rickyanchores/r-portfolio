@@ -30,6 +30,13 @@ nav {
   padding: 1em;
 }
 
+.nav-ul li a:hover {
+  background: black;
+  color: whitesmoke;
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+}
+
 #hamburger {
   display: none;
 }
