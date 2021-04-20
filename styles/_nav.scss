@@ -6,6 +6,10 @@ nav{
     align-items: center;
     padding: 1em;
   }
+  #logo{
+    border: 3px solid black;
+    padding: .5em;
+  }
   .nav-ul{
     display: flex;
     justify-content: space-around;
