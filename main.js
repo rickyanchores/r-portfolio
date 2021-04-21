@@ -11,7 +11,7 @@ hamburger.addEventListener('click', () =>{
 //LOGO 
 
 let logo = document.querySelector('#logo');
-
+let nav = document.querySelector('#nav');
 
 // COLOR FUNCTIONS 
 
@@ -20,6 +20,10 @@ let logo = document.querySelector('#logo');
 logo.addEventListener('click', () => {
   document.body.style.background = "black";
   document.body.style.color = "whitesmoke";
+  nav.style.color = "whitesmoke";
+  nav.style.background = "#333";
+  logo.style.color = "teal";
+  logo.style.borderColor = "teal";
   document.body.style.transition = ".5s ease-in";
 })
 
