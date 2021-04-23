@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ricky A</title>
 </head>
 <body>
@@ -27,7 +27,8 @@
       </header>
     <main>
         <section id="showcase">
-            <div class="img_box">
+            <div class="img_box" data-aos="fade-in" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" >
                 <img class="hero" src="./images/me.jpg" alt="">
             </div>
             <div class="hero_title">
@@ -45,5 +46,9 @@
 
 
     <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
