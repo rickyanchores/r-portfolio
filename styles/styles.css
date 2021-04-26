@@ -121,6 +121,30 @@ nav {
   }
 }
 
+#projects h2 {
+  text-align: center;
+  color: teal;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .card {
+  padding: 1em;
+}
+
 * {
   padding: 0;
   margin: 0;
